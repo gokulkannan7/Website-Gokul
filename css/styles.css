@@ -1,0 +1,7 @@
+* {
+  color: black;
+  text-decoration: none;
+}
+.min-vh-100 {
+  min-height: 49vh !important;
+}

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personal Portfolio - Bootstrap 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-light">
+  <nav class="navbar navbar-light bg-light shadow-sm fixed-top">
+    <div class="container-lg">
+      <a class="navbar-brand text-danger fw-bold fs-4" href="#">Gokul</a>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle btn-danger" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#home">Home</a></li>
+          <li><a class="dropdown-item" href="#about">About Me</a></li>
+          <li><a class="dropdown-item" href="#skills">Skills</a></li>
+          <li><a class="dropdown-item" href="#projects">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>  
+
+<!-- Home Section -->
+<section class="home py-5">
+  <div class="container-lg">
+    <div class="row min-vh-100 align-items-center align-content-center">
+      <div class="col-md-4"></div>
+        <div class="col-md-4">  
+          <div class="home-txt">
+            <h1>
+              <a href="" class="typewrite" data-period="1000" data-type='[ "Hello,Im Gokul.", "I am a Web developer", "I Love to Develop." ]'>
+                <span class="wrap"></span>
+              </a>
+            </h1><br>
+              <a href="#projects" class="btn btn-danger px-3">My Work</a>
+          </div> 
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- About Section -->
+<section class="about py-5" id="about">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h2 class="fw-bold mb-5">About Me</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="about-text">
+          <h2 class="fs-4 mb-3">Welcome to my website</h2>
+          <p class="text-muted">
+            I'm Gokul Kannan, currently a prefinal year at NIT Trichy. My interests include
+            Web development and in order to gain more exposure, I love to work on projects
+            and programmes to constantly enhance my skills and updated with the latest tech used.
+            I mainly work on the backend using Node JS and Mongo DB, with a little knowledge on
+            frontend using React Js and Flask
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 d-flex align-items-center">
+            <a href="" class="btn px-3 btn-danger me-5">Download CV</a>
+            <div class="social-links">
+               <a href="https://www.linkedin.com/in/gokul-kannan-7549b0172/" class="text-dark me-2"><i class="fab fa-linkedin"></i></a>
+               <a href="https://github.com/gokulkannan7/" class="text-dark me-2"><i class="fab fa-github"></i></a> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 mt-5 mt-md-0">
+        <div class="skill-item mb-4">
+          <h3>HTML, CSS & JS</h3> 
+          <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 65%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div>
+        <div class="skill-item mb-4">
+          <h3>REACT JS</h3> 
+          <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div> 
+        <div class="skill-item mb-4">
+          <h3>PYTHON</h3> 
+          <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div> 
+        <div class="skill-item mb-4 ">
+          <h3>NODE JS</h3> 
+          <div class="progress" style="height: 5px;">
+            <div class="progress-bar bg-danger" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+        </div> 
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Service Section -->
+<section class="skills py-5" id="skills">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h2 class="fw-bold mb-5">Skills</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="skills-item shadow-sm p-4 rounded bg-white">
+          <div class="icon my-3 text-danger fs-2">
+            <i class="fa fa-code" aria-hidden="true"></i>
+          </div>
+          <h2 class="fs-5 py-2">Frontend Development</h2>
+          <p>
+            HTML, CSS, Javascript, React Js
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="skills-item shadow-sm p-4 rounded bg-white">
+          <div class="icon my-3 text-danger fs-2">
+            <i class="fa fa-code" aria-hidden="true"></i>
+          </div>
+          <h2 class="fs-5 py-2">Backend Development</h2>
+          <p>
+            N ode Js, Mongo DB, Firebase, Postman
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="skills-item shadow-sm p-4 rounded bg-white">
+          <div class="icon my-3 text-danger fs-2">
+            <i class="fa fa-code" aria-hidden="true"></i>
+          </div>
+          <h2 class="fs-5 py-2">Python Development</h2>
+          <p>
+            Flask, Sqlite
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section class="projects py-5" id="projects">
+  <div class="container-lg py-4">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-title text-center">
+          <h2 class="fw-bold mb-5">Projects</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="projects-item shadow-sm p-4 rounded bg-white">
+          <div class="icon my-3 text-danger fs-2">
+            <i class="fa fa-code" aria-hidden="true"></i>
+          </div>
+          <h2 class="fs-5 py-2">Chat Application</h2>
+          <p>
+            Imported socket io and used its features to create a chat app, wherein users
+can enter the chat room by entering the same code and chat, also has the
+feature of sending the location to everyone
+          </p>
+          <p class="mb-4"><a href="https://github.com/gokulkannan7/node-chat-app/" class="text-danger text-decoration-none">Link</a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="projects-item shadow-sm p-4 rounded bg-white">
+          <div class="icon my-3 text-danger fs-2">
+            <i class="fa fa-code" aria-hidden="true"></i>
+          </div>
+          <h2 class="fs-5 py-2">Task-Manager Application</h2>
+          <p>
+            Worked with Node Js and created an app where the user can signup and login
+and manage the tasks by creating, reading, updating and deleting the notes.
+Created REST API endpoints and tested the API using Postman, also added
+authorization and returned a JWT token when an user logged in or signed u
+          </p>
+          <p class="mb-4"><a href="https://github.com/gokulkannan7/Task-Manager-App/" class="text-danger text-decoration-none">Link</a></p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mb-4">
+        <div class="projects-item shadow-sm p-4 rounded bg-white">
+          <div class="icon my-3 text-danger fs-2">
+            <i class="fa fa-code" aria-hidden="true"></i>
+          </div>
+          <h2 class="fs-5 py-2">Frontend Development</h2>
+          <p>
+            Worked with Node Js and used core modules and the Yargs package to create
+commands over the terminal to create, update or delete the notes created by
+the user, which was saved in the JSON format in a seperate files
+          </p>
+          <p class="mb-4"><a href="https://github.com/gokulkannan7/Notes-app/" class="text-danger text-decoration-none">Link</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/type.js"></script>
+</body>
+</html>
